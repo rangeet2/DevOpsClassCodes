@@ -1,10 +1,10 @@
 
 pipeline{
     tools{
-        jdk 'myjava'
+        jdk 'java8'
         maven 'mymaven'
     }
-	agent {label 'linux_slave'}
+	agent {label 'TrainingDomain'}
       stages{
            stage('Checkout'){
 	    
