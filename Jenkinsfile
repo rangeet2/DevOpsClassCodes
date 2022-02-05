@@ -1,7 +1,7 @@
 
 pipeline{
     tools{
-        jdk 'java8'
+        jdk 'Java8'
         maven 'mymaven'
     }
 	agent {label 'TrainingDomain'}
